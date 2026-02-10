@@ -17,8 +17,19 @@ In face of adversarial examples, the key factor for an effective defense is gene
 We propose a two-step preventive defense mechanism to achieve an attack-independent defense. The preventive defense scheme include two principal process: 1) a watermarking process to include a mark to inputs model and 2) an input validation process to validate that inputs contain the marked input characteristics before they are processed by the model.
 
 #### Hypothesis
+By determining the authenticity and integrity of text-inputs, it is possible to define modification process-independent defenses that exhibit greater generality across different modifications, contributing to maintaining correct results in face of different adversarial attacks. **Invisible textual watermarks**, when combined with deterministic reconstruction, can serve as a preventive gate that enforces request integrity *before* model execution. 
 
-By determining the authenticity and integrity of text-inputs, it is possible to define modification process-independent defenses that exhibit greater generality across different modifications, contributing to maintaining correct results in face of different adversarial attacks.
+The proposed mechanism relies on three core principles:
+
+1. **Imperceptibility**  
+   The watermark does not alter the visible content or semantics of the request.
+
+2. **Determinism**  
+   The watermark can be reconstructed exactly from the visible text using shared parameters.
+
+3. **Preventive gating**  
+   Requests that fail verification are blocked before reaching the DL model.
+
 
 ![Preventive Defense Mechanism Approach](https://github.com/MonserratVH/Preventive_Adversarial_Mechanism/blob/main/Figures/preventive_defense_mechanism.jpg)
 
@@ -32,6 +43,19 @@ To protect the integrity of inputs, the watermarking process embeds a watermark 
 
 #### Hashing Term 
 ![Watermarking at Term Level](https://github.com/MonserratVH/Preventive_Adversarial_Mechanism/blob/main/Figures/watermark_term_level.jpg)
+
+
+#### Repository Structure
+
+```text
+.
+├── Figures
+├── Preventive_Defense_Mechanism.ipynb  # Preventive Defense Mechanism Against Adversarial Attacks Based on Structural Watermarking
+├── README.md             # Project documentation
+
+```
+
+---
 
 
 ## Researchers

@@ -16,6 +16,41 @@ In face of adversarial examples, the key factor for an effective defense is gene
 #### Preventive Defense Mechanism
 We propose a two-step preventive defense mechanism to achieve an attack-independent defense. The preventive defense scheme include two principal process: 1) a watermarking process to include a mark to inputs model and 2) an input validation process to validate that inputs contain the marked input characteristics before they are processed by the model.
 
-####H Hypothesis
+#### Hypothesis
 
 By determining the authenticity and integrity of text-inputs, it is possible to define modification process-independent defenses that exhibit greater generality across different modifications, contributing to maintaining correct results in face of different adversarial attacks.
+
+![Preventive Defense Mechanism Approach](https://github.com/MonserratVH/Preventive_Adversarial_Mechanism/blob/main/Figures/preventive_defense_mechanism.jpg)
+
+
+## Watermarking process
+To protect the integrity of inputs, the watermarking process embeds a watermark to input on a hierarchical scheme at sentence and term level applying hash tables and hash functions using a particular key for this process.
+
+#### Hashing Sentence
+![Watermarking at Sentence Level](https://github.com/MonserratVH/Preventive_Adversarial_Mechanism/blob/main/Figures/watermark_sentence_level.jpg)
+
+
+#### Hashing Term 
+![Watermarking at Term Level](https://github.com/MonserratVH/Preventive_Adversarial_Mechanism/blob/main/Figures/watermark_term_level.jpg)
+
+
+## Researchers
+
+- _Monserrat Vázquez-Hernández_  
+    mvazquez@inaoe.mx  
+    https://orcid.org/0000-0001-9206-5706  
+
+- _Ignacio Algredo-Badillo_  
+    algredobadillo@inaoep.mx  
+    https://orcid.org/0000-0002-4748-3500
+
+- _Luis Villaseñor-Pineda_  
+    villasen@inaoep.mx  
+    https://orcid.org/0000-0003-1294-9128
+
+
+## Acknowledgements
+
+ - This work is supported by CONAHCYT/México scholarship 814461. Besides, it was founded by Catedras-CONAHCYT projects 882 and 613
+
+

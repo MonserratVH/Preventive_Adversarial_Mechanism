@@ -12,6 +12,6 @@ In face of adversarial examples, the key factor for an effective defense is gene
 #### Preventive Defense Mechanism
 We propose a two-step preventive defense mechanism to achieve an attack-independent defense. The preventive defense scheme include two principal process: 1) a watermarking process to include a mark to inputs model and 2) an input validation process to validate that inputs contain the marked input characteristics before they are processed by the model.
 
-####Hypothesis
+####H Hypothesis
 
 By determining the authenticity and integrity of text-inputs, it is possible to define modification process-independent defenses that exhibit greater generality across different modifications, contributing to maintaining correct results in face of different adversarial attacks.

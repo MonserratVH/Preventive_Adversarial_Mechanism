@@ -66,7 +66,7 @@ To protect the integrity of inputs, the watermarking process embeds a watermark 
 
 - _Luis Alberto Morales-Rosales_  
     lamorales@conacyt.mx  
-    [[https://orcid.org/0000-0002-4753-9375](https://orcid.org/0000-0002-4753-9375)
+    [https://orcid.org/0000-0002-4753-9375](https://orcid.org/0000-0002-4753-9375)
   
 - _Ignacio Algredo-Badillo_  
     algredobadillo@inaoep.mx  

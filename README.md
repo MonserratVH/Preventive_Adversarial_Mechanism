@@ -64,7 +64,7 @@ To protect the integrity of inputs, the watermarking process embeds a watermark 
     mvazquez@inaoe.mx  
     https://orcid.org/0000-0001-9206-5706  
 
-- _Luis Alberto Morales-Rosales (corresponding author)_ 
+- _Luis Alberto Morales-Rosales_ 
     lamorales@conacyt.mx  
     https://orcid.org/0000-0002-4753-9375
   
